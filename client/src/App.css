@@ -1,0 +1,9 @@
+body { margin: 0; font-family: sans-serif; background-color: #f4f5f7; }
+.container { padding: 20px; }
+.board-view { display: flex; gap: 20px; }
+.task-column { background-color: #ebecf0; border-radius: 3px; width: 272px; padding: 8px; flex-shrink: 0; }
+.task-column h3 { margin: 0 0 10px; padding: 0 8px; }
+.task-card { background-color: #fff; border-radius: 3px; box-shadow: 0 1px 0 rgba(9,30,66,.25); padding: 8px; margin-bottom: 8px; cursor: pointer; }
+.task-card:hover { background-color: #f4f5f7; }
+.nav { background-color: #026aa7; padding: 10px; color: white; }
+.nav a { color: white; text-decoration: none; font-weight: bold; }
